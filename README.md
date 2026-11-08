@@ -295,7 +295,6 @@ Ayevoryn/
 git clone https://github.com/issu321/Ayevoryn.git
 cd Ayevoryn
 tar -xf Ayevoryn.zip
-cd Ayevoryn
 
 py -m venv .venv
 .venv\Scripts\activate
@@ -315,7 +314,6 @@ Or simply double-click `app.bat` for the assisted quick-start.
 git clone https://github.com/issu321/Ayevoryn.git
 cd Ayevoryn
 unzip Ayevoryn.zip
-cd Ayevoryn
 
 python3 -m venv .venv
 source .venv/bin/activate
