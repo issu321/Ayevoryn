@@ -294,6 +294,8 @@ Ayevoryn/
 ```bat
 git clone https://github.com/issu321/Ayevoryn.git
 cd Ayevoryn
+unzip Ayevoryn.zip
+cd Ayevoryn
 
 py -m venv .venv
 .venv\Scripts\activate
@@ -302,7 +304,7 @@ pip install -r requirements.txt
 copy .env.example .env        :: then edit values
 
 :: Initialize the database on first run, then start:
-python run.py
+python app.py
 ```
 
 Or simply double-click `app.bat` for the assisted quick-start.
@@ -312,6 +314,8 @@ Or simply double-click `app.bat` for the assisted quick-start.
 ```bash
 git clone https://github.com/issu321/Ayevoryn.git
 cd Ayevoryn
+unzip Ayevoryn.zip
+cd Ayevoryn
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -319,7 +323,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env           # then edit values
 
-python run.py
+python app.py
 ```
 
 The development server serves the application at `http://127.0.0.1:5000` (or the port configured in `config/settings.py`).
