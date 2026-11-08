@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="tt dd">
+<title id="tt">Security Architecture</title>
+<desc id="dd">Role-based access control, tenant isolation, audit trails and hardened input handling</desc>
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0A1128"/><stop offset="1" stop-color="#0D1638"/>
+  </linearGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .fl{stroke-dasharray:4 12;animation:dsh 6s linear infinite}
+    @keyframes dsh{to{stroke-dashoffset:-160}}
+    .pw{animation:pw 4.5s ease-in-out infinite}
+    @keyframes pw{0%,100%{opacity:.35}50%{opacity:1}}
+    text{font-family:'Segoe UI','Inter',Arial,sans-serif}
+  </style>
+</defs>
+<rect x="1.5" y="1.5" width="797" height="337" rx="18" fill="url(#card)" stroke="#26407E" stroke-opacity="0.55"/>
+<rect x="1.5" y="1.5" width="797" height="337" rx="18" fill="none" stroke="url(#acc)" stroke-opacity="0.30"/>
+<text x="42" y="60" font-size="23" font-weight="650" fill="#E8EDFB">Security Architecture</text>
+<rect x="42" y="74" width="56" height="3" rx="1.5" fill="url(#acc)"/>
+<text x="42" y="102" font-size="13.5" fill="#93A5CC">Role-based access control, tenant isolation, audit trails and hardened input handling</text>
+<circle cx="400" cy="205" r="96" fill="none" stroke="#26407E" stroke-dasharray="3 9" class="fl"/>
+<circle cx="400" cy="205" r="122" fill="none" stroke="#1E3266" stroke-dasharray="2 12"/>
+<path d="M400 118 C 452 140, 484 148, 484 148 V 208 C 484 258, 448 288, 400 302 C 352 288, 316 258, 316 208 V 148 C 316 148, 348 140, 400 118 Z"
+      fill="#0B1330" stroke="url(#acc)" stroke-width="2.2" filter="url(#glow)"/>
+<rect x="384" y="206" width="32" height="26" rx="6" fill="url(#acc)"/>
+<path d="M390 206 v-9 a10 10 0 0 1 20 0 v9" fill="none" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/>
+<circle cx="400" cy="216" r="3.4" fill="#05070F"/>
+<rect x="316" width="168" height="2.4" y="150" fill="#22D3EE" opacity="0.22">
+  <animate attributeName="y" values="150;296;150" dur="8s" repeatCount="indefinite"/>
+</rect>
+<g font-size="9.5" letter-spacing="2" text-anchor="middle" fill="#7E93C4">
+  <text x="400" y="330" >RBAC · TENANT ISOLATION · AUDIT · HASHED CREDENTIALS</text>
+</g>
+</svg>
