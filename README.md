@@ -294,7 +294,7 @@ Ayevoryn/
 ```bat
 git clone https://github.com/issu321/Ayevoryn.git
 cd Ayevoryn
-unzip Ayevoryn.zip
+tar -xf Ayevoryn.zip
 cd Ayevoryn
 
 py -m venv .venv
